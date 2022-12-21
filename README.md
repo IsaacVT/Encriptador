@@ -31,6 +31,10 @@ La encriptacion se realiza de la siguiente manera:
 - Al mostrar el resultado se cuenta con un botón que copia el texto encriptado/desencriptado, es decir la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 - Del mismo modo se cuenta un botón de pegar el texto del portapapeles, es decir la misma funcionalidad del ctrl+V o de la opción "pegar" del menú de las aplicaciones.
 
+## Detalles
+
+- El sitio no es del todo responsivo
+
 ---
 
 # Creditos
