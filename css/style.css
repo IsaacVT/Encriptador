@@ -385,7 +385,7 @@ footer {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
     .entrada {
         width: 22em;
         height: 15em;
@@ -462,7 +462,7 @@ footer {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 900px) {
     .entrada {
         width: 17.5em;
         height: 12.5em;
