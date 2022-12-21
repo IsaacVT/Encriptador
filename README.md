@@ -3,6 +3,8 @@ Encriptador de texto desarrollado en HTML, CSS y JavaScript como reto del Proyec
 
 El sitio puede verse en la siguiente liga: https://isaacvt.github.io/Encriptador/
 
+**-- Spoilers de como se ve la página al final --**
+
 ## Funcionamiento
 
 La encriptacion se realiza de la siguiente manera:
@@ -34,6 +36,26 @@ La encriptacion se realiza de la siguiente manera:
 ## Detalles
 
 - El sitio no es del todo responsivo
+
+# Screenshots
+
+## Escritorio
+<p align = "center">
+  <img width = "400px" height = "300px" src="https://github.com/IsaacVT/Encriptador/blob/main/pantallas/escritorio1.png">
+  <img width = "400px" height = "300px" src="https://github.com/IsaacVT/Encriptador/blob/main/pantallas/escritorio2.png">
+<p>
+
+## Ipad
+<p align = "center">
+  <img width = "300px" height = "400px" src="https://github.com/IsaacVT/Encriptador/blob/main/pantallas/ipad1.png">
+  <img width = "300px" height = "400px" src="https://github.com/IsaacVT/Encriptador/blob/main/pantallas/ipad2.png">
+<p>
+
+## Movil
+<p align = "center">
+  <img width = "200px" height = "500px" src="https://github.com/IsaacVT/Encriptador/blob/main/pantallas/movil1.png">
+  <img width = "200px" height = "500px" src="https://github.com/IsaacVT/Encriptador/blob/main/pantallas/movil2.png">
+<p>
 
 ---
 
