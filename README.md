@@ -35,7 +35,7 @@ La encriptacion se realiza de la siguiente manera:
 
 ## Detalles
 
-- El sitio no es del todo responsivo
+- Pueden surgir algunos errores de visualuzación con respecto a la resolución de algunas pantallas
 
 # Screenshots
 
