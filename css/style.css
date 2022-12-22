@@ -1,40 +1,22 @@
 body {
-    background: #F3F5FC;
+    background-color: #F3F5FC; 
     font-family:  'Inter', sans-serif;
-    position: relative;
-
-    width: 90em;
-    height: 64rem;
-    margin: auto;
 }
 
-/* ------------------------------ Logo ------------------------------ */
+.logoContainer {
+    padding: 24px 16px;
+    margin-bottom: 56px;
+}
 
-.logo {
+.main {
+    margin: 0 16px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0em;
-    gap: 2.5em;
-
-    position: absolute;
-    width: 120px;
-    height: 48px;
-    
-    left: 2.5em;
-    top: 2.5em;
 }
 
-/* ------------------------------ Entrada de texto ------------------------------ */
+/* Textarea */
 
 .entrada {
-    position: absolute;
-    width: 25em;
-    height: 21em;
-
-    left: 5em;
-    top: 5em;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -46,13 +28,22 @@ body {
     border: none;
 
     resize: none;
+
+    width: 100%;
+    min-height: 245px;
+    
+    margin-bottom: 16px;
 }
 
 textarea:focus {
     outline: none;
-}  
+}
 
-/* ------------------------------ Advertencia ------------------------------ */
+textarea::placeholder {
+    color: #0A3871;
+}
+
+/* Advertencia */
 
 .advertencia {
     display: flex;
@@ -60,13 +51,7 @@ textarea:focus {
     align-items: center;
     padding: 0em;
     gap: 0.5em;
-
-    position: absolute;
-    width: 15em;
-    height: 1.125em;
-
-    left: 15em;
-    top: 53em;
+    margin-bottom: 16px;
 }
 
 .advertencia img {
@@ -75,9 +60,6 @@ textarea:focus {
 }
 
 .nota {
-    width: 18em;
-    height: 1.5em;
-
     font-weight: 400;
     font-size: 0.75em;
     line-height: 150%;
@@ -87,29 +69,23 @@ textarea:focus {
     opacity: 0.8;
 }
 
-/* ------------------------------ Botones ------------------------------ */
+/* Botones */
 
 .botones {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
     padding: 0em;
-    gap: 1.5em;
+    gap: 1em;
 
-    position: absolute;
-    width: 42.5em;
-    height: 4.2em;
-
-    left: 15em;
-    top: 55em;
+    margin-bottom: 64px;
 }
 
 button {
     padding: 0.5em;
     gap: 0.5em;
-
-    width: 12.5em;
-    height: 4.2em;
+    width: 100%;
+    height: 67px;
 
     border-radius: 24px;
 
@@ -155,13 +131,6 @@ button {
 }
 
 #btnCopiar {
-    position: absolute;
-    top: 53em;
-    left: 2.5em;
-
-    width: 20.5em;
-    height: 4.2em;
-
     background: #D8DFE8;
     color: #0A3871;
     border: 1px solid #0A3871;
@@ -177,31 +146,22 @@ button {
     color: #FFFFFF;
 }
 
-/* ------------------------------ Rectangulo espera ------------------------------ */
+/* Esperando */
 
-.esperando {
-    position: absolute;
-    width: 25em;
-    height: 59em;
-
-    left: 62.5em;
-    top: 2.5em;
-    
+.esperando {    
     background: #FFFFFF;
 
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
 
     text-align: center;
+
+    padding: 32px;
+    margin: 0 8px;
 }
 
 .personaje {
-    position: absolute;
-    width: 336px;
-    height: 304px;
-
-    top: 18em;
-    left: 2em;
+    display: none;
 }
 
 .notas {
@@ -209,13 +169,6 @@ button {
     flex-direction: column;
     align-items: flex-start;
     gap: 1em;
-
-    position: absolute;
-    width: 19em;
-    height: 8em;
-
-    top: 39em;
-    left: 3em;
 }
 
 #nada {
@@ -230,33 +183,19 @@ button {
     line-height: 150%;
 }
 
-/* ------------------------------ Rectangulo encriptado ------------------------------ */
+/* Resultado */
 
-.encriptado {
-    position: absolute;
-    width: 25em;
-    height: 59em;
-
-    left: 62.5em;
-    top: 2.5em;
-    
+.encriptado {    
     background: #FFFFFF;
 
     border-radius: 32px;
 
     text-align: center;
 
-    display: none;
+    flex-direction: column;
 }
 
 #resultado {
-    position: absolute;
-    width: 14em;
-    height: 33em;
-
-    left: 1.5em;
-    top: 1em;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -268,22 +207,32 @@ button {
 
     border: none;
     resize: none;
+
+    height: 200px;
+    
+    margin-bottom: 14px;
 }
 
-/* ------------------------------ Pie de página ------------------------------ */
+/* Footer */ 
 
 footer {
-    position: absolute;
     bottom: 0;
-    width: 50%;
-    height: max-content;
+
+    padding: 5px;
+    text-align: center;
+
+    padding: 16px;
+}
+
+.creditos {
+    position: absolute;
+
+    left: 5%;
+    right: 5%;
 
     color: #0A3871;
     font-weight: 700;
     font-size: 1em;
     line-height: 120%;
     font-style: italic;
-
-    padding: 5px;
-    text-align: center;
-} 
+}

@@ -1,267 +1,80 @@
-@media (max-width: 1440px) {
-    .logo {
-        width: 80px;
-        height: 28px;
-        
-        left: 0em;
-        top: 1.5em;
-    }
-
-    .entrada {
-        width: 19em;
-        height: 18em;
-    
-        left: 3em;
-        top: 3em;
-
-        font-size: 1.75em;
-    }
-
-    .advertencia {
-        width: 15em;
-        height: 1.125em;
-    
-        left: 5em;
-        top: 38em;
-    }
-
+@media screen and (min-width: 767px) {
     .botones {
-        width: 43em;
-        height: 4.2em;
-    
-        left: 5em;
-        top: 40em;
+        flex-direction: row;
     }
 
     button {
-        width: 11.5em;
-        height: 4.5em;
-        
-        font-size: 0.9em;
+        width: 32%;
+    }
+
+    .notas {
+        align-items: center;
     }
 
     #btnCopiar {
-        top: 37.3em;
-        left: 1.3em;
-    
-        width: 20.5em;
-        height: 4.2em;
-    }
-
-    .esperando {
-        width: 23em;
-        height: 43em;
-    
-        left: 42em;
-        top: 2.5em;
-    }
-
-    .personaje {
-        width: 300px;
-        height: 300px;
-    
-        top: 8em;
-        left: 2em;
-
-        display: flex;
-    }
-
-    .notas {    
-        top: 30em;
-        left: 2em;
-    }
-
-    .encriptado {
-        width: 23em;
-        height: 43em;
-    
-        left: 42em;
-        top: 2.5em;
-    }
-
-    #resultado {
-        width: 13.2em;
-        height: 23em;
-    
-        left: 1em;
-        top: 1em;
-    }
-
-    footer {
-        top: 45em;
-        left: -1em;
+        align-self: center;
+        width: 100%;
     }
 }
 
-@media (max-width: 768px) {
-    .entrada {
-        width: 22em;
-        height: 15em;
-    
-        left: 3em;
-        top: 3em;
-
-        font-size: 1.75em;
+@media screen and (min-width: 1439px) {
+    .main{
+        flex-direction: row;
+        width: 80%;
+        height: 100%;
+        padding: 40px 40px 0 240px;
+        margin: 0;
     }
 
-    .advertencia {
-        width: 15em;
-        height: 1.125em;
-    
-        left: 17em;
-        top: 33em;
+    .logoContainer {
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 60px;
     }
 
     .botones {
-        width: 43em;
-        height: 4.2em;
-    
-        left: 7em;
-        top: 35em;
-    }
-
-    #btnCopiar {    
-        width: 37em;
-        height: 3em;
-
-        top: 16em;
-        left: 1.5em;
-    }
-
-    .esperando {
-        width: 40em;
-        height: 20em;
-    
-        left: 4em;
-        top: 40em;
-    }
-
-    .personaje {
-        display: none;
-    }
-
-    .notas {    
-        width: 25em;
-        height: 8em;
-
-        top: 7.5em;
-        left: 9em;
-    }
-
-    .encriptado {
-        width: 40em;
-        height: 20em;
-    
-        left: 4em;
-        top: 40em;
-    }
-
-    #resultado {
-        width: 24.5em;
-        height: 9em;
-    
-        left: 1em;
-        top: 1em;
-    }
-
-    footer {
-        top: 61.5em;
-        left: 2em;
-    }
-}
-
-@media (max-width: 375px) {
-    .entrada {
-        width: 17.5em;
-        height: 12.5em;
-    
-        left: 1em;
-        top: 3.5em;
-
-        font-size: 1.2em;
-    }
-
-    .advertencia {
-        width: 15em;
-        height: 1.125em;
-    
-        left: 5em;
-        top: 20em;
-    }
-
-    .botones {
-        width: 43em;
-        height: 4.2em;
-    
-        left: 1em;
-        top: 22em;
-        
-        
-        gap: 0.5em;
-        flex-direction: column;
+        flex-direction: row;
+        width: 95%;
+        margin-bottom: auto;
     }
 
     button {
-        width: 23.5em;
-        height: 3em;
-        
-        font-size: 0.9em;
+        width: 30%;
+    }
+    
+    .personaje {
+        display: block;
+        margin: 150px auto 50px auto;
     }
 
-    #btnCopiar {   
-        width: 22em;
-        height: 3em;
+    .notas {
+        align-items: center;
+    }
 
-        top: 21.5em;
-        left: 1em;
+    #btnCopiar {
+        align-self: center;
+        width: 100%;
+    }
 
-        font-size: 0.9em;
+    .principal {
+        width: 60%;
+        padding-top: 124px;
+    }
+
+    .entrada {
+        width: 90%;
+        height: 43vw;
+    }
+
+    .resultado {
+        width: 40%;
     }
 
     .esperando {
-        width: 21.5em;
-        height: 23em;
-    
-        left: 1em;
-        top: 32em;
+        height: 58vw;
     }
 
-    .personaje {
-        display: none;
-    }
-
-    .notas {    
-        width: 20em;
-        height: 8em;
-
-        top: 8em;
-        left: 1em;
-    }
-
-    .encriptado {
-        width: 21.5em;
-        height: 23em;
-    
-        left: 1em;
-        top: 32em;
-    }
-
-    #resultado {
-        width: 15.5em;
-        height: 14em;
-    
-        left: 1em;
-        top: 1em;
-
-        font-size: 1.2em;
-    }
-
-    footer {
-        width: 18%;
-
-        top: 69.2em;
-        left: 5em;
-        
-        font-size: 0.8em;
+    #resultado {    
+        min-height: 750px;
     }
 }

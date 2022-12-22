@@ -1,3 +1,6 @@
+document.querySelector(".encriptado").style.display = "none";
+document.querySelector(".notas").style.display = "flex";
+
 function encriptar() {
     var texto = document.getElementById("entradaTexto");
 
@@ -32,10 +35,12 @@ function desencriptar() {
 
 function validar(frase) {
     if (frase.value === "") {
-        document.getElementById("rectangulo").style.display = "none";
+        document.querySelector(".encriptado").style.display = "none";
+        document.querySelector(".notas").style.display = "flex";
         return true;
     } else {
-        document.getElementById("rectangulo").style.display = "inline";
+        document.querySelector(".encriptado").style.display = "flex";
+        document.querySelector(".notas").style.display = "none";
         return false;
     }
 }
